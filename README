@@ -1,0 +1,7 @@
+# 1 - target: a simple hello world program
+    ./target
+    
+# 2 - meminject: injects a shellcode in the RIP of a target process using ptrace 
+    sudo ./meminject TARGET_PID
+        
+# 3 - shellcode: a small assembly code program calling a shell
